@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import {useParams} from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
- 
+ import Spinner from '../components/spinner'
 
 
 const ObtenerDetalles = () =>{
     const {name} = useParams()
-    const {datos} = useFetch(`http://ddragon.leagueoflegends.com/cdn/10.20.1/data/es_MX/champion/${name}.json`)
+    const {datos,spinner} = useFetch(`http://ddragon.leagueoflegends.com/cdn/10.20.1/data/es_MX/champion/${name}.json`)
     
     const divStyle = {
         backgroundImage: `url(http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${name}_0.jpg)`,
@@ -14,6 +14,9 @@ const ObtenerDetalles = () =>{
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       
+    }
+    if(spinner){
+        return <Spinner />
     }
         
     return (
@@ -36,10 +39,10 @@ const ObtenerDetalles = () =>{
                          </div>
                      </div>
                      <div>
-                        {final.skins.map((skin)=>(
+                        {/* {final.skins.map((skin)=>(
                             
                              <img alt = {skin.name} src = {`http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${name}_${skin.num}.jpg`} />
-                        ))}
+                        ))} */}
                      </div>
                     </div>
                     )}))
