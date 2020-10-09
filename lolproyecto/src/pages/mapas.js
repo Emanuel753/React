@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Campeon = ({data}) =>{
-
+const Mapas = () => {
     return (
         <div>
- 
+            Proximamente mapas
         </div>
     )
 }
 
-export default Campeon
+export default Mapas
