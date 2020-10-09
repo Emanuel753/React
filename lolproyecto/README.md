@@ -2,6 +2,8 @@ Proyecto LOL
 
 El proyecto se trata prinpalmente de mostrar informacion de los campeones, consumiendo la API oficial de RIOT.
 
+Proximamente mas cambios...
+
 ## Available Scripts
 
 In the project directory, you can run:
