@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto LOL
+
+El proyecto se trata prinpalmente de mostrar informacion de los campeones, consumiendo la API oficial de RIOT.
 
 ## Available Scripts
 
