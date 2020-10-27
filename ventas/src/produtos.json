@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "pintura_1",
+        "img":"https://loremflickr.com/320/240",
+        "precio": 10,
+        "detalle":"La fuerza de uno de las máximas obras exponentes del arte contemporáneo parece inentendible a simple vista: elementos en blanco y negro se reúnen en torno a un drama, que presenta miembros descuartizados, animales en señal de miedo y hombres y mujeres en desesperación. Guernica está inspirada en el bombardeo sufrido en la localidad homónima durante el inicio de la Guerra Civil Española, organizado por la Alemania nazi y las fuerzas franquistas. Un toro que representa la escalada del fascismo en Europa, un caballo como el pueblo y una flor que brota del mango de una espada, significa la esperanza y la vida después del cruel ataque a la localidad del País Vasco."
+    },
+    {
+        "id": 2,
+        "nombre": "pintura_2",
+        "img":"https://loremflickr.com/320/240/dog",
+        "precio": 15,
+        "detalle":"El retrato por sí sólo puede ser espeluznante y al mismo tiempo, cautivador: un claroscuro muestra en primer plano el cuerpo humano mutilado y lleno de sangre ante un acto de canibalismo. Degollado, un hombre es oprimido con fuerza mientras un ser gigante lo engulle con desesperación y horror. Se trata de Saturno, dios del tiempo según la mitología romana que devoraba a sus hijos recién nacidos para evitar perder su sitio en el trono. El título hace aún más cruenta la escena y aumenta el drama que la obra tiene de por medio."
+    },
+    {
+        "id": 3,
+        "nombre": "pintura_3",
+        "img":"https://loremflickr.com/320/240/all",
+        "precio": 20,
+        "detalle":"La enigmática obra que representa la transición del malagueño al cubismo, está poderosamente influenciada por su periodo africano, expresado en la deformación de los rostros de cinco mujeres desnudas que miran hacia el espectador en poses sugerentes. La Carrer d’ Avinyó es la calle principal de la prostitución y los vicios en Barcelona, un sitio frecuentemente visitado por el malagueño donde saciaba sus instintos sexuales al inicio de su carrera artística."
+    },
+    {
+        "id": 4,
+        "nombre": "pintura_4",
+        "img":"https://loremflickr.com/320/240/paris",
+        "precio": 35,
+        "detalle":"A primera vista, la obra parece concentrarse en la inspección de un ojo humano tan cerca, que es posible vislumbrar lo que se refleja en su mirada. El cielo azul cubierto parcialmente por el tránsito de nubes parecer ser la razón de esta pintura y sin embargo, es necesario conocer su nombre para ir aún más allá en la interpretación de la obra. 'El espejo falso' propone un diálogo que se mantiene latente en la obra de Magritte: la delgada línea entre lo real y lo imaginario, el terreno en que la realidad se confunde con lo ideal y la mejor representación es la mirada. A través de ella, la consciencia crea una imagen de lo que considera real y conforma una visión propia del mundo."
+    },
+    {
+        "id": 5,
+        "nombre": "pintura_5",
+        "img":"https://loremflickr.com/320/240/all",
+        "precio": 50,
+        "detalle":"El surrealista catalán se alejó de los trazos delineados oníricos de Dalí y la mirada crítica de Magritte, creando un estilo propio que definió su trabajo artístico y lo catapultó al reconocimiento internacional a mediados del siglo XX. Las pinceladas libres, los colores primarios y los principales elementos de su obra están concentrados en la serie de pinturas que incluyen constelaciones aleatorias en el cielo conectadas a través de líneas, mujeres y aves en señal de escape de la realidad, la protección maternal y la libertad, respectivamente."
+    }
+]
+
